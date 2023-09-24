@@ -20,4 +20,3 @@ Taras Kozak - Krebs & Kiefer
 Please cite the following paper when using this ontology:
 
 Hamdan, Al-Hakam & Scherer, Raimar (2020). Integration of BIM-related bridge information in an ontological knowledgebase. In: Proceedings of the 8th Linked Data in Architecture and Construction Workshop.
-
