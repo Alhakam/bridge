@@ -12,6 +12,7 @@ It is recommended to use BRIDGE together with the Bridge Topology Ontology (BROT
 ## Contributors
 
 [Al-Hakam Hamdan](https://github.com/Alhakam) - TU Dresden
+
 Taras Kozak - Krebs & Kiefer
 
 ## References
