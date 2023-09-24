@@ -1,0 +1,432 @@
+<https://wisib.de/ontologie/bridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://wisib.de/ontologie/bridge> <http://www.w3.org/2002/07/owl#versionIRI> <https://wisib.de/ontologie/bridge/0.1> .
+<https://wisib.de/ontologie/bridge> <http://purl.org/dc/termscreator> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Al-Hakam Hamdan" .
+<https://wisib.de/ontologie/bridge> <http://purl.org/dc/termsdescription> "Ontology for bridge classification and properties"@en .
+<https://wisib.de/ontologie/bridge> <http://purl.org/dc/termslicense> "https://creativecommons.org/licenses/by/1.0" .
+<https://wisib.de/ontologie/bridge> <http://purl.org/dc/termsmodified> "21th May 2019" .
+<https://wisib.de/ontologie/bridge> <http://purl.org/dc/termstitle> "Bridge Ontology"@en .
+<https://wisib.de/ontologie/bridge> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bridge" .
+<https://wisib.de/ontologie/bridge> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://wisib.de/ontologie/bridge#" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://wisib.de/ontologie/bridge#directionOrigin
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/brot#Bridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/page/Orientation_(geometry)> .
+<http://dbpedia.org/page/Orientation_(geometry)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt an, von welcher Himmelsrichtung kommend das Bauwerk errichtet werden soll (BW-Richtung)"@de .
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the direction from which the building is to be constructed."@en .
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "Richtungsursprung"@de .
+<https://wisib.de/ontologie/bridge#directionOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "direction origin"@en .
+# 
+# https://wisib.de/ontologie/bridge#directionTarget
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/page/Orientation_(geometry)> .
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt an, zu welcher Himmelsrichtung zielend das Bauwerk errichtet werden soll (BW-Richtung)"@de .
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the direction in which the building is to be constructed."@en .
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/2000/01/rdf-schema#label> "Richtungsziel"@de .
+<https://wisib.de/ontologie/bridge#directionTarget> <http://www.w3.org/2000/01/rdf-schema#label> "direction target"@en .
+# 
+# https://wisib.de/ontologie/bridge#hasMainResponsible
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://wisib.de/ontologie/bridge#hasResponsible> .
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Organisation> .
+<http://dbpedia.org/ontology/Organisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between a Bridge and the main responsible dbo:Organisation that administrates the Bridge."@en .
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/2000/01/rdf-schema#label> "Baulast Konstrukt"@de .
+<https://wisib.de/ontologie/bridge#hasMainResponsible> <http://www.w3.org/2000/01/rdf-schema#label> "has main responsible"@en .
+# 
+# https://wisib.de/ontologie/bridge#hasResponsible
+<https://wisib.de/ontologie/bridge#hasResponsible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#hasResponsible> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#hasResponsible> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Organisation> .
+<https://wisib.de/ontologie/bridge#hasResponsible> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between a Bridge and a responsible dbo:Organisation."@en .
+<https://wisib.de/ontologie/bridge#hasResponsible> <http://www.w3.org/2000/01/rdf-schema#label> "has Responsible"@en .
+# 
+# https://wisib.de/ontologie/bridge#hasResponsibleDepartment
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://wisib.de/ontologie/bridge#hasResponsible> .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#range> <https://wisib.de/ontologie/bridge#Department> .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between a Bridge and a responsible department that administrates the Bridge."@en .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#comment> "Zuständiges Amt für betroffene Brücke"@de .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#label> "Amt"@de .
+<https://wisib.de/ontologie/bridge#hasResponsibleDepartment> <http://www.w3.org/2000/01/rdf-schema#label> "has responsible department"@en .
+# 
+# https://wisib.de/ontologie/bridge#hasResponsibleWorkshop
+<https://wisib.de/ontologie/bridge#hasResponsibleWorkshop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#hasResponsibleWorkshop> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://wisib.de/ontologie/bridge#hasResponsible> .
+<https://wisib.de/ontologie/bridge#hasResponsibleWorkshop> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#hasResponsibleWorkshop> <http://www.w3.org/2000/01/rdf-schema#range> <https://wisib.de/ontologie/bridge#Workshop> .
+<https://wisib.de/ontologie/bridge#hasResponsibleWorkshop> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between a Bridge and a responsible workshop."@en .
+<https://wisib.de/ontologie/bridge#hasResponsibleWorkshop> <http://www.w3.org/2000/01/rdf-schema#label> "has responsible workshop"@en .
+# 
+# https://wisib.de/ontologie/bridge#hasUIUAPartner
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://wisib.de/ontologie/bridge#hasResponsible> .
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Organisation> .
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/2000/01/rdf-schema#comment> "Relationship between a Bridge and a responsible UI/UA responsible partner."@en .
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/2000/01/rdf-schema#label> "UI/UA pflichtiger Partner"@de .
+<https://wisib.de/ontologie/bridge#hasUIUAPartner> <http://www.w3.org/2000/01/rdf-schema#label> "has UI/UA responsible partner"@en .
+# 
+# https://wisib.de/ontologie/brot#containsComponent
+<https://wisib.de/ontologie/brot#containsComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://wisib.de/ontologie/bridge#angle
+<https://wisib.de/ontologie/bridge#angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#angle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#angle> <http://www.w3.org/2000/01/rdf-schema#comment> "Angle of construction related to site.\nUnit in  [°]."@en .
+<https://wisib.de/ontologie/bridge#angle> <http://www.w3.org/2000/01/rdf-schema#label> "Bauwerkswinkel"@de .
+<https://wisib.de/ontologie/bridge#angle> <http://www.w3.org/2000/01/rdf-schema#label> "construction angle"@en .
+# 
+# https://wisib.de/ontologie/bridge#bridgeArea
+<https://wisib.de/ontologie/bridge#bridgeArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#bridgeArea> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#bridgeArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die Gesamtfläche der Überbauelemente der Brücke an. Einheit in [m²]."@de .
+<https://wisib.de/ontologie/bridge#bridgeArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the total area of the superstructure components of the bridge. \nUnit in [m²]."@en .
+<https://wisib.de/ontologie/bridge#bridgeArea> <http://www.w3.org/2000/01/rdf-schema#label> "Brückenfläche"@de .
+<https://wisib.de/ontologie/bridge#bridgeArea> <http://www.w3.org/2000/01/rdf-schema#label> "bridge area"@en .
+# 
+# https://wisib.de/ontologie/bridge#bridgeWidth
+<https://wisib.de/ontologie/bridge#bridgeWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#bridgeWidth> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#bridgeWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die Breite der Brücke an (ohne Ausbau). Einheit in [m]."@de .
+<https://wisib.de/ontologie/bridge#bridgeWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the width of the bridge (without extension). \nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#bridgeWidth> <http://www.w3.org/2000/01/rdf-schema#label> "Breite"@de .
+<https://wisib.de/ontologie/bridge#bridgeWidth> <http://www.w3.org/2000/01/rdf-schema#label> "bridge width"@en .
+# 
+# https://wisib.de/ontologie/bridge#clearHeight
+<https://wisib.de/ontologie/bridge#clearHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#clearHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#clearHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "defines the height which needs to fulfil the following criteria:\n\n- free space between the roadway and the lower edge of the superstructure of a bridge or between its piers or columns;\n\n- vertical space in the cross-section of the road to be kept clear of obstacles\n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#clearHeight> <http://www.w3.org/2000/01/rdf-schema#label> "Lichte Höhe"@de .
+<https://wisib.de/ontologie/bridge#clearHeight> <http://www.w3.org/2000/01/rdf-schema#label> "clear height"@en .
+# 
+# https://wisib.de/ontologie/bridge#clearWidthSingleSpan
+<https://wisib.de/ontologie/bridge#clearWidthSingleSpan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#clearWidthSingleSpan> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#clearWidthSingleSpan> <http://www.w3.org/2000/01/rdf-schema#comment> "defines the width of a single span which needs to fulfil the following criteria:\n\n- free space between the roadway and the lower edge of the superstructure of a bridge or between its piers or columns;\n\n- vertical space in the cross-section of the road to be kept clear of obstacles\n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#clearWidthSingleSpan> <http://www.w3.org/2000/01/rdf-schema#label> "Lichte Weite bei Einfeld"@de .
+<https://wisib.de/ontologie/bridge#clearWidthSingleSpan> <http://www.w3.org/2000/01/rdf-schema#label> "clear width of single span"@en .
+# 
+# https://wisib.de/ontologie/bridge#completedDataAcquisition
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt an, ob die Datenerfassung abgeschlossen worden ist.\n\ntrue = Datenerf. abgeschlossen\nfalse = Datenerf. nicht abgeschlossen / unvollständig"@de .
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether data acquisition has been completed.\n\ntrue = data acquisition completed\nfalse = data acquisition not completed / incomplete"@en .
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/2000/01/rdf-schema#label> "Datenerf. abgeschl."@de .
+<https://wisib.de/ontologie/bridge#completedDataAcquisition> <http://www.w3.org/2000/01/rdf-schema#label> "completed data acquisition"@en .
+# 
+# https://wisib.de/ontologie/bridge#constructionYear
+<https://wisib.de/ontologie/bridge#constructionYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#constructionYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#constructionYear> <http://www.w3.org/2000/01/rdf-schema#comment> "Year in which the bridge has been constructed."@en .
+<https://wisib.de/ontologie/bridge#constructionYear> <http://www.w3.org/2000/01/rdf-schema#label> "Baujahr"@de .
+<https://wisib.de/ontologie/bridge#constructionYear> <http://www.w3.org/2000/01/rdf-schema#label> "construction year"@en .
+# 
+# https://wisib.de/ontologie/bridge#curvature
+<https://wisib.de/ontologie/bridge#curvature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#curvature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#curvature> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die Krümmung der Brückenplatte an. Krümmung kann entweder mit R in [m] angegeben werden oder als \"false\" bzw. nicht gekrümmt."@de .
+<https://wisib.de/ontologie/bridge#curvature> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the curvature of the bridge plate. Curvature can either be specified with radius in [m] or as \"false\" or not curved."@en .
+<https://wisib.de/ontologie/bridge#curvature> <http://www.w3.org/2000/01/rdf-schema#label> "Krümmung"@de .
+<https://wisib.de/ontologie/bridge#curvature> <http://www.w3.org/2000/01/rdf-schema#label> "curvature"@en .
+# 
+# https://wisib.de/ontologie/bridge#fileID
+<https://wisib.de/ontologie/bridge#fileID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#fileID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#fileID> <http://www.w3.org/2000/01/rdf-schema#comment> "Referes to the file ID of the corresponding construction file."@en .
+<https://wisib.de/ontologie/bridge#fileID> <http://www.w3.org/2000/01/rdf-schema#label> "Bauwerksakte-Nr."@de .
+<https://wisib.de/ontologie/bridge#fileID> <http://www.w3.org/2000/01/rdf-schema#label> "file ID"@en .
+# 
+# https://wisib.de/ontologie/bridge#historicPreservation
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt an, ob das Bauwerk unter Denkmalschutz steht.\n\ntrue = Bauwerk unter Denkmalschutz\nfalse = kein Denkmalschutz"@de .
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the building is under monument protection.\n\ntrue = building under monument protection\nfalse = no monument protection"@en .
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/2000/01/rdf-schema#label> "Denkmalschutz"@de .
+<https://wisib.de/ontologie/bridge#historicPreservation> <http://www.w3.org/2000/01/rdf-schema#label> "historic preservation"@en .
+# 
+# https://wisib.de/ontologie/bridge#maxConstructionHeight
+<https://wisib.de/ontologie/bridge#maxConstructionHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#maxConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#maxConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die maximale Konstruktionshöhe an. Einheit in [m]."@de .
+<https://wisib.de/ontologie/bridge#maxConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the maximum construction height. \n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#maxConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#label> "Konstruktionshöhe max."@de .
+<https://wisib.de/ontologie/bridge#maxConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#label> "maximum construction height"@en .
+# 
+# https://wisib.de/ontologie/bridge#maxCoveredHeight
+<https://wisib.de/ontologie/bridge#maxCoveredHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#maxCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#maxCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the maximum covered height. \n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#maxCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#label> "Max. Überschüttungshöhe"@de .
+<https://wisib.de/ontologie/bridge#maxCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#label> "maximum covered height"@en .
+# 
+# https://wisib.de/ontologie/bridge#maxLongitudinalGradient
+<https://wisib.de/ontologie/bridge#maxLongitudinalGradient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#maxLongitudinalGradient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#maxLongitudinalGradient> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die maximale Längsneigung der Brückenplatte an. Einheit in [%]."@de .
+<https://wisib.de/ontologie/bridge#maxLongitudinalGradient> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the maximum longitudinal inclination of the bridge slab. \n\nUnit in [%]."@en .
+<https://wisib.de/ontologie/bridge#maxLongitudinalGradient> <http://www.w3.org/2000/01/rdf-schema#label> "Maximale Längsneigung"@de .
+<https://wisib.de/ontologie/bridge#maxLongitudinalGradient> <http://www.w3.org/2000/01/rdf-schema#label> "maximum longitudinal gradient"@en .
+# 
+# https://wisib.de/ontologie/bridge#maxTransverseGradient
+<https://wisib.de/ontologie/bridge#maxTransverseGradient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#maxTransverseGradient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#maxTransverseGradient> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die maximale Querneigung der Brückenplatte an. Einheit in [%]."@de .
+<https://wisib.de/ontologie/bridge#maxTransverseGradient> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the maximum transverse inclination of the bridge slab. \n\nUnit in [%]."@en .
+<https://wisib.de/ontologie/bridge#maxTransverseGradient> <http://www.w3.org/2000/01/rdf-schema#label> "maximale Querneigung"@de .
+<https://wisib.de/ontologie/bridge#maxTransverseGradient> <http://www.w3.org/2000/01/rdf-schema#label> "maximum transverse gradient"@en .
+# 
+# https://wisib.de/ontologie/bridge#minConstructionHeight
+<https://wisib.de/ontologie/bridge#minConstructionHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#minConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#minConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die minimale Konstruktionshöhe an. Einheit in [m]."@de .
+<https://wisib.de/ontologie/bridge#minConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the minimum construction height.\n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#minConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#label> "Konstruktionshöhe min."@de .
+<https://wisib.de/ontologie/bridge#minConstructionHeight> <http://www.w3.org/2000/01/rdf-schema#label> "minimum construction height"@en .
+# 
+# https://wisib.de/ontologie/bridge#minCoveredHeight
+<https://wisib.de/ontologie/bridge#minCoveredHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#minCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#minCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the minimum covered height.\n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#minCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#label> "Min. Überschüttungshöhe"@de .
+<https://wisib.de/ontologie/bridge#minCoveredHeight> <http://www.w3.org/2000/01/rdf-schema#label> "minimum covered height"@en .
+# 
+# https://wisib.de/ontologie/bridge#overalLength
+<https://wisib.de/ontologie/bridge#overalLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#overalLength> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#overalLength> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die Gesamtlänge der Brücke an. Einheit in [m]."@de .
+<https://wisib.de/ontologie/bridge#overalLength> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the total length of the bridge.\n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#overalLength> <http://www.w3.org/2000/01/rdf-schema#label> "Gesamtlänge"@de .
+<https://wisib.de/ontologie/bridge#overalLength> <http://www.w3.org/2000/01/rdf-schema#label> "overall length"@en .
+# 
+# https://wisib.de/ontologie/bridge#overallWidth
+<https://wisib.de/ontologie/bridge#overallWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#overallWidth> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#overallWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt die Gesamtbreite der Brücke an. Einheit in [m]."@de .
+<https://wisib.de/ontologie/bridge#overallWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the total width of the bridge. \n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#overallWidth> <http://www.w3.org/2000/01/rdf-schema#label> "Gesamtbreite"@de .
+<https://wisib.de/ontologie/bridge#overallWidth> <http://www.w3.org/2000/01/rdf-schema#label> "overall width"@en .
+# 
+# https://wisib.de/ontologie/bridge#spacingSuperStructure
+<https://wisib.de/ontologie/bridge#spacingSuperStructure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#spacingSuperStructure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#spacingSuperStructure> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt den Zwischenraum der Überbauten an. Einheit in [m]."@de .
+<https://wisib.de/ontologie/bridge#spacingSuperStructure> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the space between the superstructures. \n\nUnit in [m]."@en .
+<https://wisib.de/ontologie/bridge#spacingSuperStructure> <http://www.w3.org/2000/01/rdf-schema#label> "Zwischenraum Überbauten"@de .
+<https://wisib.de/ontologie/bridge#spacingSuperStructure> <http://www.w3.org/2000/01/rdf-schema#label> "spacing between superstructures"@en .
+# 
+# https://wisib.de/ontologie/bridge#underTraffic
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/2000/01/rdf-schema#comment> "Gibt an ob die Brücke einer Verkehrslast ausgesetzt ist bzw. befahren wird.\n\ntrue = Unter Vekehr / befahren\nfalse = Nicht unter Verkehr / gesperrt"@de .
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether the bridge is exposed to a traffic load.\n\ntrue = Under traffic / traffic\nfalse = Not under traffic / blocked"@en .
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/2000/01/rdf-schema#label> "Stadium"@de .
+<https://wisib.de/ontologie/bridge#underTraffic> <http://www.w3.org/2000/01/rdf-schema#label> "under traffic"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/Organisation
+# 
+# http://dbpedia.org/page/Orientation_(geometry)
+# 
+# http://xmlns.com/foaf/0.1/Person
+# 
+# https://wisib.de/ontologie/brcomp#Tendon
+<https://wisib.de/ontologie/brcomp#Tendon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://wisib.de/ontologie/bridge#BeamBridge
+<https://wisib.de/ontologie/bridge#BeamBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#BeamBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#BeamBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "The external characteristic of the beam bridge is usually the visible separation of the superstructure (bridge girder) from the substructure (supports, abutments) by bearings. The bearings transfer the loads from the superstructure to the substructures and give the bridge girder the necessary positional stability and movement capability. The cross-sectional shape in the longitudinal direction corresponds externally to a beam, usually the girder height is constant. Superstructures with variable superstructure heights are possible. As a rule, the bottom chord has a curvature corresponding to the moment load, it is vouched. The beam makes optimum use of the strength of the material and is used as a static system for conventional bridges with small to medium spans (approx. 80 m). Economical spans for beam bridges are up to 100 m, approx. 100-200 m for Extradosed bridges and from 200 m for cable-stayed bridges. The beam bridge is frequently used because of its comparatively simple construction. Many bridges over motorways are designed in this way. Beam bridges can be constructed in transverse direction with different cross-section geometries."@en .
+<https://wisib.de/ontologie/bridge#BeamBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Balkenbrücke"@de .
+<https://wisib.de/ontologie/bridge#BeamBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Beam bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#BoxGirderBridge
+<https://wisib.de/ontologie/bridge#BoxGirderBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#BoxGirderBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/bridge#GirderBridge> .
+<https://wisib.de/ontologie/bridge#BoxGirderBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge in which the main beams comprise girders in the shape of a hollow box. The box girder normally comprises either prestressed concrete, structural steel, or a composite of steel and reinforced concrete. The box is typically rectangular or trapezoidal in cross-section."@en .
+<https://wisib.de/ontologie/bridge#BoxGirderBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Box girder bridge"@en .
+<https://wisib.de/ontologie/bridge#BoxGirderBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Hohlkastenbrücke"@de .
+# 
+# https://wisib.de/ontologie/bridge#CompositeBridge
+<https://wisib.de/ontologie/bridge#CompositeBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#CompositeBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#CompositeBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Composite steel bridges are structures consisting of steel main girders and a concrete deck slab above them."@en .
+<https://wisib.de/ontologie/bridge#CompositeBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Composite bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#Department
+<https://wisib.de/ontologie/bridge#Department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#Department> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/Organisation> .
+<https://wisib.de/ontologie/bridge#Department> <http://www.w3.org/2000/01/rdf-schema#comment> "Responsible department that administrates the bridge and its maintenance."@en .
+<https://wisib.de/ontologie/bridge#Department> <http://www.w3.org/2000/01/rdf-schema#label> "Department"@en .
+# 
+# https://wisib.de/ontologie/bridge#GirderBridge
+<https://wisib.de/ontologie/bridge#GirderBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#GirderBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#GirderBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that uses girders as the means of supporting its deck."@en .
+<https://wisib.de/ontologie/bridge#GirderBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Girder bridge"@en .
+<https://wisib.de/ontologie/bridge#GirderBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Plattenbalken- / Trägerrost- Brücke"@de .
+# 
+# https://wisib.de/ontologie/bridge#PedestrianBridge
+<https://wisib.de/ontologie/bridge#PedestrianBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#PedestrianBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#PedestrianBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge designed solely for pedestrians"@en .
+<https://wisib.de/ontologie/bridge#PedestrianBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Pedestrian Bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#PrestressedConcreteBridge
+<https://wisib.de/ontologie/bridge#PrestressedConcreteBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#PrestressedConcreteBridge> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://wisib.de/ontologie/brot#containsComponent> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://wisib.de/ontologie/brcomp#Tendon> .
+<https://wisib.de/ontologie/bridge#PrestressedConcreteBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#PrestressedConcreteBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that uses prestressed concrete as building material."@en .
+<https://wisib.de/ontologie/bridge#PrestressedConcreteBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Prestressed concrete bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#RailwayBridge
+<https://wisib.de/ontologie/bridge#RailwayBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#RailwayBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#RailwayBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge specially designed to guide a railway line and the railways running on it over obstacles."@en .
+<https://wisib.de/ontologie/bridge#RailwayBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Railway bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#ReinforcedConcreteBridge
+<https://wisib.de/ontologie/bridge#ReinforcedConcreteBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#ReinforcedConcreteBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#ReinforcedConcreteBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that uses reinforced concrete as building material."@en .
+<https://wisib.de/ontologie/bridge#ReinforcedConcreteBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Reinforced concrete bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#RoadBridge
+<https://wisib.de/ontologie/bridge#RoadBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#RoadBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#RoadBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that can be used by motor vehicles and motor vehicles and usually also by pedestrians, bicycles and other vehicles."@en .
+<https://wisib.de/ontologie/bridge#RoadBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Road bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#SlabBridge
+<https://wisib.de/ontologie/bridge#SlabBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#SlabBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#SlabBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Short-span bridge consisting of a reinforced-concrete slab resting on abutments"@en .
+<https://wisib.de/ontologie/bridge#SlabBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Slab bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#Steelbridge
+<https://wisib.de/ontologie/bridge#Steelbridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#Steelbridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#Steelbridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that uses mainly steel as building material."@en .
+<https://wisib.de/ontologie/bridge#Steelbridge> <http://www.w3.org/2000/01/rdf-schema#label> "Steel bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#StoneBridge
+<https://wisib.de/ontologie/bridge#StoneBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#StoneBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#StoneBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that uses mainly (natural) stone as building material."@en .
+<https://wisib.de/ontologie/bridge#StoneBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Stone bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#TransportBridge
+<https://wisib.de/ontologie/bridge#TransportBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#TransportBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#TransportBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Movable bridge that carries a segment of roadway across a river."@en .
+<https://wisib.de/ontologie/bridge#TransportBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Transport bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#WoodBridge
+<https://wisib.de/ontologie/bridge#WoodBridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#WoodBridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wisib.de/ontologie/brot#Bridge> .
+<https://wisib.de/ontologie/bridge#WoodBridge> <http://www.w3.org/2000/01/rdf-schema#comment> "Bridge that uses mainly wood as building material."@en .
+<https://wisib.de/ontologie/bridge#WoodBridge> <http://www.w3.org/2000/01/rdf-schema#label> "Wood bridge"@en .
+# 
+# https://wisib.de/ontologie/bridge#Workshop
+<https://wisib.de/ontologie/bridge#Workshop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://wisib.de/ontologie/bridge#Workshop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/Organisation> .
+<https://wisib.de/ontologie/bridge#Workshop> <http://www.w3.org/2000/01/rdf-schema#comment> "Responsible company / workshop for constructing the bridge."@en .
+<https://wisib.de/ontologie/bridge#Workshop> <http://www.w3.org/2000/01/rdf-schema#comment> "Zuständiger Betrieb / Meisterei für Brückenbauwerk"@de .
+<https://wisib.de/ontologie/bridge#Workshop> <http://www.w3.org/2000/01/rdf-schema#label> "Meisterei"@de .
+<https://wisib.de/ontologie/bridge#Workshop> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop"@en .
+# 
+# https://wisib.de/ontologie/brot#Bridge
+# 
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Al-Hakam Hamdan" .
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid4 <http://www.w3.org/2002/07/owl#members> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#CompositeBridge> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#Steelbridge> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#StoneBridge> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#WoodBridge> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid9 <http://www.w3.org/2002/07/owl#members> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#PedestrianBridge> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#RailwayBridge> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#RoadBridge> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wisib.de/ontologie/bridge#TransportBridge> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
